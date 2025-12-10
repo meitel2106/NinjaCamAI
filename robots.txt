@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ninjacamai.netlify.app/sitemap.xml
+Sitemap: https://meitel2106.github.io/WatcherCamAI/sitemap.xml
