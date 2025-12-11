@@ -1220,9 +1220,16 @@
     <p class="footer-logo">WatcherCamAI</p>
     <p class="footer-copy">© 2025 GalaxyExpress — Designed & Developed by Meitel</p>
     <p class="footer-email">
-      <a href="/cdn-cgi/l/email-protection#5037313c31282935282022352323616161103f25243c3f3f3b7e3a20"><span class="__cf_email__" data-cfemail="3e595f525f46475b464e4c5b4d4d0f0f0f7e514b4a5251515510544e">[email&#160;protected]</span></a>
+      <a href="mailto:galaxyexpress111@outlook.jp">galaxyexpress111@outlook.jp</a>
     </p>
   </footer>
 
-  <!-- FAQアコーディオン用JS -->
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        question.parentElement.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
